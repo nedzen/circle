@@ -1,0 +1,157 @@
+/*
+ * Responsive Advertisments by @nedzen
+ * Copyright 2013 Marius Nedelcu, Inc.
+ * Licensed under http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+.adv {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.adv.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .adv.xs-b168x42 {
+    width: 168px;
+    height: 42px;
+  }
+  .adv.xs-b216x54 {
+    width: 216px;
+    height: 54px;
+  }
+  .adv.xs-b300x50 {
+    width: 300px;
+    height: 50px;
+  }
+  .adv.xs-b300x70 {
+    width: 300px;
+    height: 50px;
+  }
+  .adv.xs-b300x250 {
+    width: 300px;
+    height: 250px;
+  }
+  .adv.xs-b250x250 {
+    width: 250px;
+    height: 250px;
+  }
+  .adv.xs-b200x200 {
+    width: 200px;
+    height: 200px;
+  }
+  .adv.xs-hide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .adv.sm-b300x75 {
+    width: 300px;
+    height: 75px;
+  }
+  .adv.sm-b320x50 {
+    width: 320px;
+    height: 50px;
+  }
+  .adv.sm-b300x250 {
+    width: 300px;
+    height: 250px;
+  }
+  .adv.sm-b336x280 {
+    width: 336px;
+    height: 280px;
+  }
+  .adv.sm-b250x250 {
+    width: 250px;
+    height: 250px;
+  }
+  .adv.sm-b200x200 {
+    width: 200px;
+    height: 200px;
+  }
+  .adv.sm-hide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .adv.md-b300x75 {
+    width: 300px;
+    height: 75px;
+  }
+  .adv.md-b320x50 {
+    width: 320px;
+    height: 50px;
+  }
+  .adv.md-b300x250 {
+    width: 300px;
+    height: 250px;
+  }
+  .adv.md-b336x280 {
+    width: 336px;
+    height: 280px;
+  }
+  .adv.md-b120x600 {
+    width: 120px;
+    height: 600px;
+  }
+  .adv.md-b160x600 {
+    width: 160px;
+    height: 600px;
+  }
+  .adv.md-b250x250 {
+    width: 250px;
+    height: 250px;
+  }
+  .adv.md-b200x200 {
+    width: 200px;
+    height: 200px;
+  }
+  .adv.md-b720x90 {
+    width: 720px;
+    height: 90px;
+  }
+  .adv.md-hide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .adv.lg-b300x250 {
+    width: 300px;
+    height: 250px;
+  }
+  .adv.lg-b336x280 {
+    width: 336px;
+    height: 280px;
+  }
+  .adv.lg-b120x600 {
+    width: 120px;
+    height: 600px;
+  }
+  .adv.lg-b160x600 {
+    width: 160px;
+    height: 600px;
+  }
+  .adv.lg-b250x250 {
+    width: 250px;
+    height: 250px;
+  }
+  .adv.lg-b200x200 {
+    width: 200px;
+    height: 200px;
+  }
+  .adv.lg-b720x90 {
+    width: 720px;
+    height: 90px;
+  }
+  .adv.lg-hide {
+    display: none;
+  }
+}
